@@ -112,6 +112,12 @@ nav .navLinks li a {
   text-decoration: none;
   color: white;
   font-size: 2rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+nav .navLinks li a:hover {
+  color: #c061ff;
 }
 
 nav .show {
